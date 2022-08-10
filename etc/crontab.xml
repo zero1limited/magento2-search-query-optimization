@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job instance="Zero1\SearchQueryOptimization\Model\Job\Decay" method="execute" name="zero1_search_query_optimization_decay">
+            <schedule>* * * * *</schedule>
+        </job>
+    </group>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="zero1_searchqueryoptimization_command_decay" xsi:type="object">Zero1\SearchQueryOptimization\Command\Decay</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

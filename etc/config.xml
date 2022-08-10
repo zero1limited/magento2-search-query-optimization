@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <catalog>
+            <search>
+                <max_count_cacheable_search_terms>1000</max_count_cacheable_search_terms>
+                <zero1_search_query_optimization_decay_days>30</zero1_search_query_optimization_decay_days>
+            </search>
+        </catalog>
+    </default>
+</config>

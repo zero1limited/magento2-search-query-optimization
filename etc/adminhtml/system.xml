@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog">
+            <group id="search">
+                <field id="zero1_search_query_optimization_decay_days" translate="label comment" type="text" sortOrder="11" showInDefault="1">
+                    <label>Days until decay</label>
+                    <comment>The number of days a search query must be unused for, before it's popularity is decremented.</comment>
+                    <validate>validate-digits</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
