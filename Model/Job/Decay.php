@@ -33,7 +33,7 @@ class Decay
             ->setPageSize(self::MAX_RESULTS)
             ->addOrder('popularity', QueryCollection::SORT_ORDER_ASC)
             ->addOrder('query_id', QueryCollection::SORT_ORDER_ASC);
-        echo 'sql: '.$this->queryCollection->getSelectSql(true).PHP_EOL;
+        // echo 'sql: '.$this->queryCollection->getSelectSql(true).PHP_EOL;
 
         $reducedCount = 0;
         $deletedCount = 0;
@@ -51,10 +51,10 @@ class Decay
             }
         }
 
-        echo 'total records: '.$this->queryCollection->count().PHP_EOL;
-        echo 'deleted: '.$deletedCount.PHP_EOL;
-        echo 'reduced: '.$reducedCount.PHP_EOL;
-        die;
+        // echo 'total records: '.$this->queryCollection->count().PHP_EOL;
+        // echo 'deleted: '.$deletedCount.PHP_EOL;
+        // echo 'reduced: '.$reducedCount.PHP_EOL;
+        // die;
     }
 
     protected function getDecayDays()
